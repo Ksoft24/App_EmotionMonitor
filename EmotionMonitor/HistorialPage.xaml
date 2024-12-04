@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EmotionMonitor.HistorialPage"
+             BackgroundColor="Gainsboro">
+
+    <Grid Padding="20" RowSpacing="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Encabezado -->
+        <Frame Grid.Row="0" Padding="10" BackgroundColor="LightGreen" CornerRadius="15" HasShadow="True">
+            <Label Text="History" 
+                   FontSize="22" 
+                   FontAttributes="Bold" 
+                   FontFamily="times"
+                   TextColor="Black" 
+                   HorizontalTextAlignment="Center"/>
+        </Frame>
+
+        <!-- Inputs de búsqueda -->
+        <Frame Grid.Row="1" BackgroundColor="LightGreen" CornerRadius="15" Padding="15" HasShadow="True">
+            <StackLayout Spacing="15">
+                <!-- Fecha -->
+                <StackLayout Orientation="Horizontal" Spacing="15">
+                    <Label Text="📅 Date:" 
+                           VerticalOptions="Center" 
+                           FontSize="18" 
+                           FontAttributes="Bold" 
+                           TextColor="#3A3B3C"/>
+                    <!-- Usamos un Frame para estilizar el DatePicker -->
+                    <Frame Padding="0" BackgroundColor="White" CornerRadius="5" HasShadow="False" BorderColor="#CCC">
+                        <DatePicker x:Name="datePicker" WidthRequest="200" FontSize="15" TextColor="#3A3B3C"/>
+                    </Frame>
+                </StackLayout>
+
+                <!-- Emoción -->
+                <StackLayout Orientation="Horizontal" Spacing="15">
+                    <Label Text="😊 Emotions:" 
+                           VerticalOptions="Center" 
+                           FontSize="18" 
+                           FontAttributes="Bold" 
+                           TextColor="#3A3B3C"/>
+                    <!-- Usamos un Frame para estilizar el Picker -->
+                    <Frame Padding="0" BackgroundColor="White" CornerRadius="5" HasShadow="False" BorderColor="#CCC">
+                        <Picker x:Name="pickerEmocion" WidthRequest="200" FontSize="15" TextColor="#3A3B3C">
+                            <Picker.Items>
+                                <x:String>Happy</x:String>
+                                <x:String>Angry</x:String>
+                                <x:String>Surprised</x:String>
+                                <x:String>Sad</x:String>
+                                <x:String>Disgusted</x:String>
+                                <x:String>Fear</x:String>
+                                <x:String>Quiet</x:String>
+                            </Picker.Items>
+                        </Picker>
+                    </Frame>
+                </StackLayout>
+
+                <!-- Ambiente -->
+                <StackLayout Orientation="Horizontal" Spacing="15">
+                    <Label Text="🏫 Enviroments:" 
+                           VerticalOptions="Center" 
+                           FontSize="18" 
+                           FontAttributes="Bold" 
+                           TextColor="#3A3B3C"/>
+                    <!-- Usamos un Frame para estilizar el Picker -->
+                    <Frame Padding="0" BackgroundColor="White" CornerRadius="5" HasShadow="False" BorderColor="#CCC">
+                        <Picker x:Name="pickerAmbientes" WidthRequest="200" FontSize="15" TextColor="#3A3B3C">
+                            <Picker.Items>
+                                <x:String>1ro. D</x:String>
+                                <x:String>2do. C</x:String>
+                                <x:String>3ro. A</x:String>
+                                <x:String>4to. B</x:String>
+                                <x:String>5to. D</x:String>
+                            </Picker.Items>
+                        </Picker>
+                    </Frame>
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+
+        <!-- Resultados de búsqueda -->
+        <Frame Grid.Row="2" BorderColor="Black" Padding="15" Margin="0,-3,1,-9" CornerRadius="15" HasShadow="True">
+            <ScrollView>
+                <StackLayout x:Name="resultadosStack" Spacing="10">
+                    <Label Text="Aquí se mostrarán los resultados filtrados." 
+                           FontSize="16" 
+                           FontAttributes="Italic" 
+                           TextColor="Black" 
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </ScrollView>
+        </Frame>
+
+        <!-- Imagen de la emoción seleccionada -->
+        <Frame Grid.Row="3" Padding="13" Margin="0,10,0,20" CornerRadius="15" BackgroundColor="LightGreen" HasShadow="True">
+            <StackLayout>
+                <Label Text="Image:" 
+                       FontSize="20" 
+                       FontAttributes="Bold" 
+                       FontFamily="arial"
+                       TextColor="Black" 
+                       HorizontalTextAlignment="Center"/>
+                <!-- Eliminamos CornerRadius y usamos el Frame para el diseño -->
+                <Frame Padding="0" CornerRadius="10" BackgroundColor="White" HasShadow="False">
+                    <Image x:Name="imagenEmocion" Aspect="AspectFill" HeightRequest="200"/>
+                </Frame>
+            </StackLayout>
+        </Frame>
+    </Grid>
+</ContentPage>

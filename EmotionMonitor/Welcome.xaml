@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EmotionMonitor.Welcome"
+             Shell.NavBarIsVisible="False">
+
+    <Grid x:Name="MainGrid"
+          RowDefinitions="*,Auto,Auto,Auto,*"
+          HorizontalOptions="FillAndExpand"
+          VerticalOptions="FillAndExpand"
+          Padding="0">
+
+        <!-- Background Image -->
+        <Image Source="login.jpg"
+               Aspect="AspectFill"
+               Grid.RowSpan="5"
+               InputTransparent="True"
+               HorizontalOptions="Fill"
+               VerticalOptions="Fill"/>
+
+        <!-- Semi-transparent Overlay -->
+        <Rectangle Grid.RowSpan="5" 
+                   Fill="Black"
+                   Opacity="0.5"
+                   InputTransparent="True"
+                   HorizontalOptions="Fill"
+                   VerticalOptions="Fill"/>
+
+        <!-- Logo -->
+        <Image Grid.Row="0"
+               Source="logoe.png"
+               HeightRequest="300"
+               WidthRequest="350"
+               Margin="0,-115"
+               HorizontalOptions="Center"
+               VerticalOptions="End"/>
+
+        <!-- Title -->
+        <Label Grid.Row="1"
+               Text="EMOTION MONITOR"
+               FontSize="30"
+               FontFamily="helvetica"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               TextColor="White"
+               Margin="0,90,0,200"/>
+
+        <!-- Subtitle -->
+        <Label Grid.Row="2"
+               Text="Monitor your emotions day by day..."
+               FontSize="18"
+               HorizontalOptions="Center"
+               TextColor="White"
+               FontFamily="georgia"
+               FontAttributes="Italic"
+               Margin="0,-200,0,0"/>
+
+        <!-- Continue Button -->
+        <Button Grid.Row="3"
+                Text="CONTINUE"
+                FontAttributes="Bold"
+                FontSize="20"
+                FontFamily="arial"
+                HeightRequest="50"
+                WidthRequest="150"
+                Margin="0,40,0,0"
+                HorizontalOptions="Fill"
+                BackgroundColor="#4CAF50"
+                VerticalOptions="Center"
+                Clicked="OnLoginClicked"/>
+    </Grid>
+</ContentPage>

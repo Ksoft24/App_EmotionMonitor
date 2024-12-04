@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68B9DB44-C56F-4151-842B-3B4B68C336E5}|EmotionMonitor\\EmotionMonitor.csproj|c:\\users\\labin\\source\\repos\\emotionmonitor\\emotionmonitor\\historialpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{68B9DB44-C56F-4151-842B-3B4B68C336E5}|EmotionMonitor\\EmotionMonitor.csproj|solutionrelative:emotionmonitor\\historialpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68B9DB44-C56F-4151-842B-3B4B68C336E5}|EmotionMonitor\\EmotionMonitor.csproj|c:\\users\\labin\\source\\repos\\emotionmonitor\\emotionmonitor\\emotionspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{68B9DB44-C56F-4151-842B-3B4B68C336E5}|EmotionMonitor\\EmotionMonitor.csproj|solutionrelative:emotionmonitor\\emotionspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68B9DB44-C56F-4151-842B-3B4B68C336E5}|EmotionMonitor\\EmotionMonitor.csproj|c:\\users\\labin\\source\\repos\\emotionmonitor\\emotionmonitor\\welcome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68B9DB44-C56F-4151-842B-3B4B68C336E5}|EmotionMonitor\\EmotionMonitor.csproj|solutionrelative:emotionmonitor\\welcome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68B9DB44-C56F-4151-842B-3B4B68C336E5}|EmotionMonitor\\EmotionMonitor.csproj|c:\\users\\labin\\source\\repos\\emotionmonitor\\emotionmonitor\\welcome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{68B9DB44-C56F-4151-842B-3B4B68C336E5}|EmotionMonitor\\EmotionMonitor.csproj|solutionrelative:emotionmonitor\\welcome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68B9DB44-C56F-4151-842B-3B4B68C336E5}|EmotionMonitor\\EmotionMonitor.csproj|c:\\users\\labin\\source\\repos\\emotionmonitor\\emotionmonitor\\historialpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68B9DB44-C56F-4151-842B-3B4B68C336E5}|EmotionMonitor\\EmotionMonitor.csproj|solutionrelative:emotionmonitor\\historialpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68B9DB44-C56F-4151-842B-3B4B68C336E5}|EmotionMonitor\\EmotionMonitor.csproj|c:\\users\\labin\\source\\repos\\emotionmonitor\\emotionmonitor\\emotionspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68B9DB44-C56F-4151-842B-3B4B68C336E5}|EmotionMonitor\\EmotionMonitor.csproj|solutionrelative:emotionmonitor\\emotionspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68B9DB44-C56F-4151-842B-3B4B68C336E5}|EmotionMonitor\\EmotionMonitor.csproj|c:\\users\\labin\\source\\repos\\emotionmonitor\\emotionmonitor\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68B9DB44-C56F-4151-842B-3B4B68C336E5}|EmotionMonitor\\EmotionMonitor.csproj|solutionrelative:emotionmonitor\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68B9DB44-C56F-4151-842B-3B4B68C336E5}|EmotionMonitor\\EmotionMonitor.csproj|c:\\users\\labin\\source\\repos\\emotionmonitor\\emotionmonitor\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{68B9DB44-C56F-4151-842B-3B4B68C336E5}|EmotionMonitor\\EmotionMonitor.csproj|solutionrelative:emotionmonitor\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68B9DB44-C56F-4151-842B-3B4B68C336E5}|EmotionMonitor\\EmotionMonitor.csproj|c:\\users\\labin\\source\\repos\\emotionmonitor\\emotionmonitor\\historialdato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68B9DB44-C56F-4151-842B-3B4B68C336E5}|EmotionMonitor\\EmotionMonitor.csproj|solutionrelative:emotionmonitor\\historialdato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68B9DB44-C56F-4151-842B-3B4B68C336E5}|EmotionMonitor\\EmotionMonitor.csproj|c:\\users\\labin\\source\\repos\\emotionmonitor\\emotionmonitor\\emotiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68B9DB44-C56F-4151-842B-3B4B68C336E5}|EmotionMonitor\\EmotionMonitor.csproj|solutionrelative:emotionmonitor\\emotiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmotionData.cs",
+              "DocumentMoniker": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\EmotionMonitor\\EmotionData.cs",
+              "RelativeDocumentMoniker": "EmotionMonitor\\EmotionData.cs",
+              "ToolTip": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\EmotionMonitor\\EmotionData.cs",
+              "RelativeToolTip": "EmotionMonitor\\EmotionData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:13:05.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HistorialDato.cs",
+              "DocumentMoniker": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\EmotionMonitor\\HistorialDato.cs",
+              "RelativeDocumentMoniker": "EmotionMonitor\\HistorialDato.cs",
+              "ToolTip": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\EmotionMonitor\\HistorialDato.cs",
+              "RelativeToolTip": "EmotionMonitor\\HistorialDato.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T15:35:18.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HistorialPage.xaml",
+              "DocumentMoniker": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\EmotionMonitor\\HistorialPage.xaml",
+              "RelativeDocumentMoniker": "EmotionMonitor\\HistorialPage.xaml",
+              "ToolTip": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\EmotionMonitor\\HistorialPage.xaml",
+              "RelativeToolTip": "EmotionMonitor\\HistorialPage.xaml",
+              "ViewState": "AgIAAEAAAAAAbFdwhBcswBAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T16:03:23.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HistorialPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\EmotionMonitor\\HistorialPage.xaml.cs",
+              "RelativeDocumentMoniker": "EmotionMonitor\\HistorialPage.xaml.cs",
+              "ToolTip": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\EmotionMonitor\\HistorialPage.xaml.cs",
+              "RelativeToolTip": "EmotionMonitor\\HistorialPage.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA3wGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T16:03:32.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmotionsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\EmotionMonitor\\EmotionsPage.xaml",
+              "RelativeDocumentMoniker": "EmotionMonitor\\EmotionsPage.xaml",
+              "ToolTip": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\EmotionMonitor\\EmotionsPage.xaml",
+              "RelativeToolTip": "EmotionMonitor\\EmotionsPage.xaml",
+              "ViewState": "AgIAANsAAAAAAAAAAAAAAPcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T00:07:00.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmotionsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\EmotionMonitor\\EmotionsPage.xaml.cs",
+              "RelativeDocumentMoniker": "EmotionMonitor\\EmotionsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\EmotionMonitor\\EmotionsPage.xaml.cs",
+              "RelativeToolTip": "EmotionMonitor\\EmotionsPage.xaml.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAYwFwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T00:07:04.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\EmotionMonitor\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "EmotionMonitor\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\EmotionMonitor\\LoginPage.xaml.cs",
+              "RelativeToolTip": "EmotionMonitor\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T17:20:16.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\EmotionMonitor\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "EmotionMonitor\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\EmotionMonitor\\LoginPage.xaml",
+              "RelativeToolTip": "EmotionMonitor\\LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-20T17:20:00.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Welcome.xaml",
+              "DocumentMoniker": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\EmotionMonitor\\Welcome.xaml",
+              "RelativeDocumentMoniker": "EmotionMonitor\\Welcome.xaml",
+              "ToolTip": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\EmotionMonitor\\Welcome.xaml",
+              "RelativeToolTip": "EmotionMonitor\\Welcome.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-20T16:46:28.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Welcome.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\EmotionMonitor\\Welcome.xaml.cs",
+              "RelativeDocumentMoniker": "EmotionMonitor\\Welcome.xaml.cs",
+              "ToolTip": "C:\\Users\\labin\\source\\repos\\EmotionMonitor\\EmotionMonitor\\Welcome.xaml.cs",
+              "RelativeToolTip": "EmotionMonitor\\Welcome.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T16:46:45.594Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

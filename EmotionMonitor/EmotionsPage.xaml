@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EmotionMonitor.EmotionsPage"
+             BackgroundColor="Gainsboro">
+
+    <Grid Padding="20" RowSpacing="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Encabezado -->
+        <Frame Grid.Row="0" Padding="10" BackgroundColor="LightGreen" CornerRadius="15" HasShadow="True">
+            <Label Text="REGISTER" 
+                   FontSize="22" 
+                   FontAttributes="Bold" 
+                   FontFamily="times"
+                   TextColor="Black" 
+                   HorizontalTextAlignment="Center"/>
+        </Frame>
+
+        <!-- Inputs de búsqueda -->
+        <Frame Grid.Row="1" BackgroundColor="LightGreen" CornerRadius="15" Padding="15" HasShadow="True">
+            <StackLayout Spacing="15">
+                <!-- Selector de Ambiente -->
+                <StackLayout Orientation="Horizontal" Spacing="15">
+                    <Label Text="🏫 Enviroments:" 
+                           VerticalOptions="Center" 
+                           FontSize="18" 
+                           FontAttributes="Bold" 
+                           TextColor="#3A3B3C"/>
+                    <Frame Padding="0" BackgroundColor="White" CornerRadius="5" HasShadow="False" BorderColor="#CCC">
+                        <Picker x:Name="pickerAmbiente" WidthRequest="200" FontSize="15" TextColor="#3A3B3C" SelectedIndexChanged="OnAmbienteSelected">
+                            <Picker.Items>
+                                <x:String>1ro. D</x:String>
+                                <x:String>2do. C</x:String>
+                                <x:String>3ro. A</x:String>
+                                <x:String>4to. B</x:String>
+                                <x:String>5to. D</x:String>
+                            </Picker.Items>
+                        </Picker>
+                    </Frame>
+                </StackLayout>
+
+                <!-- Botón para mostrar historial -->
+                <StackLayout Orientation="Horizontal" Spacing="15">
+                    <Button Text="HISTORY" 
+                            BackgroundColor="Green" 
+                            FontFamily="arial"
+                            FontAttributes="Bold" 
+                            Margin="220,2,10,0"
+                            TextColor="White" 
+                            HorizontalOptions="End" 
+                            Clicked="OnHistorialClicked"/>
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+
+        <!-- Grid de Emociones -->
+        <Frame Grid.Row="2" Padding="15" BackgroundColor="LightGreen" CornerRadius="15" HasShadow="True">
+            <ScrollView>
+                <Grid x:Name="EmotionsGrid" 
+                      ColumnDefinitions="*,*"
+                      RowDefinitions="Auto,Auto,Auto,Auto"
+                      RowSpacing="65"
+                      ColumnSpacing="30">
+                    <!-- Feliz -->
+                    <Frame Grid.Row="0" Grid.Column="0"
+                           x:Name="FrameFeliz"
+                           BorderColor="Gainsboro"
+                           BackgroundColor="Gray"
+                           CornerRadius="10"
+                           Padding="10"
+                           HeightRequest="130">
+                        <Grid>
+                            <Image Source="emotion_feliz.png" Aspect="AspectFill" Margin="22,12,22,-15" Opacity="0.8"/>
+                            <Label Text="HAPPY"
+                                   HorizontalOptions="Center"
+                                   FontSize="25"
+                                   FontAttributes="Bold"
+                                   FontFamily="Times"
+                                   CharacterSpacing="5"
+                                   Margin="0,-92,0,2"
+                                   VerticalOptions="Center"/>
+                            <Label x:Name="LabelCantidadFeliz"
+                                   Text="0"
+                                   Margin="-5,-95,0,3"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="End"
+                                   FontSize="70"
+                                   FontAttributes="Bold"/>
+                        </Grid>
+                    </Frame>
+
+                    <!-- Enojado -->
+                    <Frame Grid.Row="0" Grid.Column="1"
+                           x:Name="FrameEnojado"
+                           BorderColor="Gainsboro"
+                           BackgroundColor="Gray"
+                           CornerRadius="10"
+                           Padding="10"
+                           HeightRequest="130">
+                        <Grid>
+                            <Image Source="emotion_enojado.png" Aspect="AspectFill" Margin="5,10,10,-7" Opacity="0.8"/>
+                            <Label Text="ANGRY"
+                                   HorizontalOptions="Center"
+                                   FontAttributes="Bold"
+                                   FontSize="25"
+                                   CharacterSpacing="5"
+                                   FontFamily="Times"
+                                   Margin="0,-92,0,2"
+                                   VerticalOptions="Center"/>
+                            <Label x:Name="LabelCantidadEnojado"
+                                   Text="0"
+                                   Margin="3,-95,0,-3"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="End"
+                                   FontSize="75"
+                                   FontAttributes="Bold"/>
+                        </Grid>
+                    </Frame>
+
+                    <!-- Sorprendido -->
+                    <Frame Grid.Row="1" Grid.Column="0"
+                           x:Name="FrameSorprendido"
+                           BorderColor="Gainsboro"
+                           BackgroundColor="Gray"
+                           CornerRadius="10"
+                           Padding="10"
+                           HeightRequest="130">
+                        <Grid>
+                            <Image Source="emotion_sorprendido.png" Aspect="AspectFill" Margin="22,7,22,-10" Opacity="0.8"/>
+                            <Label Text="SURPRISED"
+                                   HorizontalOptions="Center"
+                                   CharacterSpacing="3"
+                                   FontFamily="Times"
+                                   FontAttributes="Bold"
+                                   FontSize="18"
+                                   Margin="0,-92,0,2"
+                                   VerticalOptions="Center"/>
+                            <Label x:Name="LabelCantidadSorprendido"
+                                   Text="0"
+                                   Margin="3,-95,0,-1"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="End"
+                                   FontSize="75"
+                                   FontAttributes="Bold"/>
+                        </Grid>
+                    </Frame>
+
+                    <!-- Triste -->
+                    <Frame Grid.Row="1" Grid.Column="1"
+                           x:Name="FrameTriste"
+                           BorderColor="Gainsboro"
+                           BackgroundColor="Gray"
+                           CornerRadius="10"
+                           Padding="10"
+                           HeightRequest="130">
+                        <Grid>
+                            <Image Source="emotion_triste.png" Aspect="AspectFill" Margin="22,12,22,-10" Opacity="0.8"/>
+                            <Label Text="SAD"
+                                   HorizontalOptions="Center"
+                                   FontFamily="Times"
+                                   CharacterSpacing="3"
+                                   Margin="0,-92,0,2"
+                                   FontAttributes="Bold"
+                                   FontSize="25"
+                                   VerticalOptions="Center"/>
+                            <Label x:Name="LabelCantidadTriste"
+                                   Text="0"
+                                   Margin="3,-95,10, 1"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="End"
+                                   FontSize="75"
+                                   FontAttributes="Bold"/>
+                        </Grid>
+                    </Frame>
+
+                    <!-- Desagradable -->
+                    <Frame Grid.Row="2" Grid.Column="0"
+                           x:Name="FrameDesagrado"
+                           BorderColor="Gainsboro"
+                           BackgroundColor="Gray"
+                           CornerRadius="10"
+                           Padding="10"
+                           HeightRequest="130">
+                        <Grid>
+                            <Image Source="emotion_desagradable.png" Margin="22,12,22,5" Aspect="AspectFill" Opacity="0.8"/>
+                            <Label Text="DISGUSTED"
+                                   HorizontalOptions="Center"
+                                   FontFamily="Times"
+                                   CharacterSpacing="3"
+                                   FontAttributes="Bold"
+                                   FontSize="18"
+                                   Margin="0,-92,0,2"
+                                   VerticalOptions="Center"/>
+                            <Label x:Name="LabelCantidadDesagrado"
+                                   Text="0"
+                                   Margin="3,-95,0,-5"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="End"
+                                   FontSize="80"
+                                   FontAttributes="Bold"/>
+                        </Grid>
+                    </Frame>
+
+                    <!-- Miedo -->
+                    <Frame Grid.Row="2" Grid.Column="1"
+                           x:Name="FrameMiedo"
+                           BorderColor="Gainsboro"
+                           BackgroundColor="Gray"
+                           CornerRadius="10"
+                           Padding="10"
+                           HeightRequest="130">
+                        <Grid>
+                            <Image Source="emotion_miedo.png"  Margin="-10,8,20,-10" Aspect="AspectFill" Opacity="0.8"/>
+                            <Label Text="FEAR"
+                                   HorizontalOptions="Center"
+                                   FontFamily="Times"
+                                   CharacterSpacing="3"
+                                   FontAttributes="Bold"
+                                   FontSize="25"
+                                   Margin="10,-92,0,2"
+                                   VerticalOptions="Center"/>
+                            <Label x:Name="LabelCantidadMiedo"
+                                   Text="0"
+                                   Margin="0,-4,-15,0"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="End"
+                                   FontSize="75"
+                                   FontAttributes="Bold"/>
+                        </Grid>
+                    </Frame>
+
+                    <!-- Tranquilo -->
+                    <Frame Grid.Row="3" Grid.Column="0"
+                           x:Name="FrameTranquilo"
+                           BorderColor="Gainsboro"
+                           BackgroundColor="Gray"
+                           CornerRadius="10"
+                           Padding="10"
+                           Margin="0,0,-175,0"
+                           HeightRequest="130"
+                           WidthRequest="150"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center">
+                        <Grid>
+                            <Image Source="emotion_tranquilo.png" Margin="10,10,10,-8" Aspect="AspectFill" Opacity="0.8"/>
+                            <Label Text="CALM"
+                                   HorizontalOptions="Center"
+                                   FontFamily="Times"
+                                   CharacterSpacing="3"
+                                   FontAttributes="Bold"
+                                   FontSize="25"
+                                   Margin="0,-92,0,2"
+                                   VerticalOptions="Center"/>
+                            <Label x:Name="LabelCantidadTranquilo"
+                                   Text="0"
+                                   Margin="0,-95,0,-5"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="End"
+                                   FontSize="75"
+                                   FontAttributes="Bold"/>
+                        </Grid>
+                    </Frame>
+
+                    
+                </Grid>
+            </ScrollView>
+        </Frame>
+    </Grid>
+</ContentPage>
